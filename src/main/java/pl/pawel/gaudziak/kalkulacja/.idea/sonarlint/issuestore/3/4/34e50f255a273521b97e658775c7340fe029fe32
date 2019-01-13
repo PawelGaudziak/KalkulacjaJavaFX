@@ -1,0 +1,37 @@
+
+Vsquid:S1068"3Remove this unused "adres_firmy_kod" private field.(²­ú±üÿÿÿÿ8ÿÅóù,
+Esquid:S1068"'Remove this unused "NIP" private field.(âÇ‡8Ÿ˜÷òù,
+fsquid:S00107"BConstructor has 11 parameters, which is greater than 7 authorized.(ï¯ºòøÿÿÿÿ8¨†óù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+Osquid:S1068",Remove this unused "nazwisko" private field.(©ÑŒËÿÿÿÿÿ8Ÿ˜÷òù,
+Msquid:S1068"*Remove this unused "e_mail" private field.(µ‘ÎŠüÿÿÿÿ8Á£şòù,
+Xsquid:S1068"5Remove this unused "adres_firmy_ulica" private field.(—Ûªşÿÿÿÿ8ûÆ€óù,
+msquid:S00116"NRename this field "NIP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÇ‡8ñ‡ÆÍù,
+Fsquid:S1068"(Remove this unused "imie" private field.(…·‘—8Ÿ˜÷òù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00116"VRename this field "nazwa_firmy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€±“ü8¢ãıòù,
+|squid:S00116"]Rename this field "adres_firmy_miasto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µĞ™ş8ë¼‚óù,
+fsquid:S00107+"BConstructor has 12 parameters, which is greater than 7 authorized.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+Gsquid:S1068")Remove this unused "login" private field.(ÒûìÌ8Ÿ˜÷òù,
+usquid:S00116"VRename this field "nr_telefonu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À²ø™8òéşòù,
+~squid:S00116"ZRename this field "adres_firmy_kod" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²­ú±üÿÿÿÿ8ÿÅóù,
+Msquid:S1068"/Remove this unused "nr_telefonu" private field.(À²ø™8òéşòù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+tsquid:S00116"URename this field "id_klienta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óµ¶8Šİúòù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+€squid:S00116"\Rename this field "adres_firmy_ulica" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ûªşÿÿÿÿ8ûÆ€óù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯ºòøÿÿÿÿ8¨†óù,
+Tsquid:S1068"6Remove this unused "adres_firmy_miasto" private field.(µĞ™ş8ë¼‚óù,
+Fsquid:S1068")Remove this unused "haslo" private field.(«îg8Ÿ˜÷òù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+usquid:S00116"QRename this field "e_mail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‘ÎŠüÿÿÿÿ8Á£şòù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,
+Msquid:S1068"/Remove this unused "nazwa_firmy" private field.(€±“ü8¢ãıòù,
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³àÌøÿÿÿÿ8µ‡óù,

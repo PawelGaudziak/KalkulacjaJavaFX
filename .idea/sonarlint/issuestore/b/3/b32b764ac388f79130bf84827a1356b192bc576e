@@ -1,0 +1,14 @@
+
+Esquid:S1068"'Remove this unused "NIP" private field.(‚é¹Ë8÷¾¹Šÿ,
+Osquid:S1068",Remove this unused "nazwisko" private field.(©ÑŒËÿÿÿÿÿ8‰ç²Šÿ,
+Msquid:S1068"/Remove this unused "nazwa_firmy" private field.(€±“ü8÷¾¹Šÿ,
+usquid:S00116"VRename this field "nazwa_firmy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€±“ü8÷¾¹Šÿ,
+zsquid:S00116"VRename this field "nr_telefonu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¾°Ñúÿÿÿÿ8ø¾¹Šÿ,
+usquid:S00116"QRename this field "e_mail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‘ÎŠüÿÿÿÿ8Œà³Šÿ,
+Fsquid:S1068"(Remove this unused "imie" private field.(…·‘—8‰ç²Šÿ,
+Rsquid:S1068"/Remove this unused "nr_telefonu" private field.(Ä¾°Ñúÿÿÿÿ8÷¾¹Šÿ,
+msquid:S00116"NRename this field "NIP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚é¹Ë8ø¾¹Šÿ,
+Gsquid:S1068")Remove this unused "login" private field.(ÒûìÌ8‰ç²Šÿ,
+Fsquid:S1068")Remove this unused "haslo" private field.(«îg8‰ç²Šÿ,
+Msquid:S1068"*Remove this unused "e_mail" private field.(µ‘ÎŠüÿÿÿÿ8Œà³Šÿ,
+ysquid:S00116"URename this field "id_klienta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùë‹—şÿÿÿÿ8şˆ¯Šÿ,

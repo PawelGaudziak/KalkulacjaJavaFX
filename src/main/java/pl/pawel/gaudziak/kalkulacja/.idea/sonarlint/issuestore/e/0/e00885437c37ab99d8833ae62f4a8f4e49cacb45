@@ -1,0 +1,6 @@
+
+¤squid:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·³æãýÿÿÿÿ8‡ºžÎú,
+tsquid:S1450,"QRemove the "db" field and declare it as a local variable in the relevant methods.(Éú®µÿÿÿÿÿ8ñª¼›ü,
+Isquid:S1068,"&Remove this unused "db" private field.(Éú®µÿÿÿÿÿ8ñª¼›ü,
+nsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(ößƒ—ùÿÿÿÿ8‚ö“¡ú,
+tsquid:S00116%"PRename this field "LExit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ç¸„þÿÿÿÿ8…®‚ø,

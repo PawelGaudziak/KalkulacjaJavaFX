@@ -1,0 +1,6 @@
+
+jsquid:UselessImportCheck"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F
+Çsquid:S1598"ªThis file "ZleceniaTableController.java" should be located in "pl\pawel\gaudziak\kalkulacja\controller" directory, not in "D:\Programowanie\kurs Back-End\FX1\kalkulacja".(©Üçóøÿÿÿÿ
+fsquid:S00100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éä¾
+osquid:S00116Q"RRename this field "BackBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾–·÷şÿÿÿÿ
+hsquid:UselessImportCheck"DRemove this unused import 'pl.pawel.gaudziak.kalkulacja.model.User'.(ÀÉ±¢

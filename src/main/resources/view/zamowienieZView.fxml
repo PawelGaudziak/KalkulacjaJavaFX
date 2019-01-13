@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pawel.gaudziak.kalkulacja.controller.ZamowienieZController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="129.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="311.0" minHeight="10.0" prefHeight="300.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="TOP_RIGHT" text="Witaj" textAlignment="RIGHT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="39.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="nakład">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="9.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="gramatura w gramach">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="format ulotki">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="rodzaj papieru">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <TextField fx:id="zWitajOkno">
+               <VBox.margin>
+                  <Insets left="10.0" right="50.0" top="40.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="zNakladOkno">
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="zgramaturaOkno">
+               <VBox.margin>
+                  <Insets left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <ComboBox fx:id="zFormatUlotkiCombo" prefWidth="150.0" promptText="A4, A5 ...." translateX="10.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="rodzajPapieru" prefWidth="150.0" promptText="kreda błysk, mat, offset" translateX="10.0">
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="zZamowienieBtn" mnemonicParsing="false" onMouseClicked="#zZamowienieClick" text="złóż zamówienie" />
+            <Button fx:id="zStartowyBtn" mnemonicParsing="false" onMouseClicked="#zStartowyClick" text="ekran startowy" />
+            <Button fx:id="zExit" mnemonicParsing="false" onMouseClicked="#zExitClick" text="wyjście" />
+         </children>
+      </HBox>
+      <Label text="Zamów ulotki" GridPane.columnIndex="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

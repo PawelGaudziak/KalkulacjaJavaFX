@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="1072.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pawel.gaudziak.kalkulacja.controller.ZleceniaTableController">
+   <children>
+      <TableView fx:id="tableZlecenia" layoutX="14.0" layoutY="22.0" prefHeight="272.0" prefWidth="1053.0">
+        <columns>
+          <TableColumn fx:id="colIdZlecenia" prefWidth="74.0" text="id zlecenia" />
+            <TableColumn fx:id="colIKlienta" prefWidth="66.0" text="id klienta" />
+            <TableColumn fx:id="colNaklad" prefWidth="64.0" text="nakład" />
+            <TableColumn fx:id="colGramatura" prefWidth="69.0" text="gramatura" />
+            <TableColumn fx:id="colCenaZaKg" prefWidth="73.0" text="cena za kg" />
+            <TableColumn fx:id="colWagaPapieru" prefWidth="90.0" text="waga papieru" />
+            <TableColumn fx:id="colCenaPapieru" prefWidth="78.0" text="cena papieru" />
+            <TableColumn fx:id="colArkDoDruku" prefWidth="141.0" text="ilość arkuszy do druku" />
+            <TableColumn fx:id="colFormatDoDruku" prefWidth="102.0" text="format do druku" />
+            <TableColumn fx:id="colFormatUlotki" minWidth="0.0" prefWidth="111.0" text="format ulotki" />
+            <TableColumn fx:id="colRodzajPapieru" prefWidth="123.0" text="rodzaj papieru" />
+        </columns>
+      </TableView>
+      <Button fx:id="BackBtn" layoutX="26.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#BackClick" text="&lt;&lt;powrót" />
+      <Button fx:id="pokazBtn" layoutX="901.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#pokazClick" prefHeight="25.0" prefWidth="71.0" text="pokaż" />
+   </children>
+</AnchorPane>

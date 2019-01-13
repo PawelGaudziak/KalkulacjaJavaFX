@@ -1,0 +1,5 @@
+
+tsquid:S00116%"PRename this field "LExit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ç¸„şÿÿÿÿ8…®‚ø,
+Tsquid:S2696<"6Make the enclosing method "static" or remove this set.(ÃÍ8€ôƒÿ,
+Isquid:S1068,"&Remove this unused "db" private field.(Éú®µÿÿÿÿÿ8€ôƒÿ,
+tsquid:S1450,"QRemove the "db" field and declare it as a local variable in the relevant methods.(Éú®µÿÿÿÿÿ8€ôƒÿ,

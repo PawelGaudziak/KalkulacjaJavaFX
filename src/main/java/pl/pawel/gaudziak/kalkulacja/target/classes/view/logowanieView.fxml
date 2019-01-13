@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pawel.gaudziak.kalkulacja.controller.LogowanieController">
+   <children>
+      <Label layoutX="134.0" layoutY="144.0" text="login" />
+      <Label layoutX="133.0" layoutY="215.0" text="hasło" />
+      <TextField fx:id="lLoginOkno" layoutX="174.0" layoutY="140.0" promptText="login" />
+      <Button fx:id="lLogin" layoutX="279.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#lLoginClick" text="login" />
+      <Button fx:id="lPowrot" layoutX="105.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#lPowrotClick" text="powrót" />
+      <Button fx:id="LExit" layoutX="174.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#lExitClick" text="wyjście" />
+      <PasswordField fx:id="hasloOkno" layoutX="174.0" layoutY="211.0" promptText="hasło" />
+   </children>
+</AnchorPane>

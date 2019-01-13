@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pawel.gaudziak.kalkulacja.controller.KalkulacjaController">
+   <children>
+      <GridPane layoutX="-1.0" prefHeight="394.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="10.0" prefWidth="240.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="482.0" minWidth="10.0" prefWidth="360.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="191.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="297.0" minHeight="10.0" prefHeight="289.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="262.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="kIDzlecenia" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" prefHeight="19.0" prefWidth="118.0" text="ID zlecenia">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kNaklad" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="nakład">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kGramatura" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="gramatura">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kFormatUlotki" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="format ulotki">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kRodzajPapieru" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="rodzaj papieru">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kCenaZaKg" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="cena za kg">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kFormatDoDruku" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="format do druku">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="2.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="kWagaPapieru" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="waga papieru">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kCenaPapieru" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="cena papieru">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="4.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="kIloscArkuszyDoDruku" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="ilość arkuszy do druku">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="kMailKlienta" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" text="e-mail klienta">
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="kIDzleceniaOkno" maxWidth="1.7976931348623157E308">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kNakladOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kGramaturaOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kFormatUlotkiOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kRodzajPapieruOkno" layoutX="10.0" prefHeight="25.0" prefWidth="255.0">
+                     <opaqueInsets>
+                        <Insets left="10.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="10.0" right="200.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kCenaZaKgOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <ComboBox fx:id="kCombo" layoutX="10.0" maxWidth="-Infinity" prefWidth="150.0" translateX="10.0">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </ComboBox>
+                  <TextField fx:id="kWagaPapieruOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kCenaPapieruOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kIloscArkuszyDoDrukuOkno">
+                     <VBox.margin>
+                        <Insets left="10.0" right="250.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="kMailKlientaOkno" prefHeight="25.0" prefWidth="101.0">
+                     <VBox.margin>
+                        <Insets left="10.0" right="100.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="kPokazZleceniaBtn" mnemonicParsing="false" onMouseClicked="#kZleceniaClick" prefWidth="120.0" text="pokaż zlecenia" />
+                  <Button fx:id="kEkranAdminBtn" mnemonicParsing="false" onMouseClicked="#kEkranAdminClick" prefWidth="120.0" text="ekran admina" />
+                  <Button fx:id="kExitBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#kExitClick" prefHeight="25.0" prefWidth="120.0" text="wyjście" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="kPoliczBtn" mnemonicParsing="false" onMouseClicked="#kPoliczClick" prefWidth="80.0" text="policz" />
+                  <Button fx:id="kZapiszBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#kZapiszClick" prefWidth="80.0" text="zapisz" />
+                  <Button fx:id="kWyslijBtn" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#kWyslijClick" prefWidth="80.0" text="wyślij" />
+               </children>
+            </HBox>
+            <Label fx:id="tytul" text="Kalkulacja" GridPane.columnIndex="1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+
+fsquid:S00100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éä¾
+hsquid:UselessImportCheck"DRemove this unused import 'pl.pawel.gaudziak.kalkulacja.model.User'.(ÀÉ±¢
+jsquid:UselessImportCheck"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F
+Psquid:S1068 "2Remove this unused "selectedItemId" private field.(Ê¢ç•8¾±†ú‚-
+osquid:S00116F"RRename this field "BackBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾–·÷şÿÿÿÿ
+osquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(ÒŞ™æûÿÿÿÿ8³Ê†¡ƒ-
+Esquid:S1481l"'Remove this unused "db" local variable.(‚Ç8°í’Éƒ-
+nsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(ö³‰ïúÿÿÿÿ8åĞøù‚-
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(İÀÆœşÿÿÿÿ8ú¶µù‚-
+isquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(«ªÉÅ8¾±†ú‚-
+asquid:UselessImportCheck
+"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ëâ°ñû,
+Tsquid:S1854l"6Remove this useless assignment to local variable "db".(‚Ç8°í’Éƒ-
+Ssquid:S2696\"6Make the enclosing method "static" or remove this set.(Éë­t8íØœ–ü,
