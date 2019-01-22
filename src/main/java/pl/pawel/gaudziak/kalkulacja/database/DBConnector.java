@@ -7,6 +7,6 @@ import java.sql.SQLException;
 public class DBConnector {
 
     public Connection connection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost/kalkulacja?useSSL=false", "root", "");
+        return DriverManager.getConnection("jdbc:mysql://localhost/kalkulacja?useSSL=false", "root", "Fragles21");
     }
 }

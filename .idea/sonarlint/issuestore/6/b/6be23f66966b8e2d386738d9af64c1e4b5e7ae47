@@ -1,14 +1,14 @@
 
-csquid:HiddenFieldCheck`":Rename "papier" which hides the field declared at line 44.(á„¹Š8‰ç´ÿ,
-Usquid:S1854€"6Remove this useless assignment to local variable "rs".(·¦Ã…8Óƒÿ,
-fsquid:S2095€"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…8ëŞŞ„ÿ,
+rsquid:S2095~"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(˜”®¼ÿÿÿÿÿ8ëŞŞ„ÿ,
 [
 squid:S106i"9Replace this use of System.out or System.err by a logger.(å»®ıÿÿÿÿ8ªàÁòÿ,
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ‡¤İ8²çÈ„ÿ,
-tsquid:S14507"QRemove the "db" field and declare it as a local variable in the relevant methods.(Éú®µÿÿÿÿÿ8Óƒÿ,
-Fsquid:S1481€"'Remove this unused "rs" local variable.(·¦Ã…8Óƒÿ,
-rsquid:S2095~"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(˜”®¼ÿÿÿÿÿ8ëŞŞ„ÿ,
 isquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(ô©àâ8Óƒÿ,
-jsquid:HiddenFieldCheckd"ARename "rodzajPapieru" which hides the field declared at line 41.(ğÅ¾Ò8ªàÁòÿ,
-nsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(‚Ñ†£úÿÿÿÿ8Óƒÿ,
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ‡¤İ8²çÈ„ÿ,
+Fsquid:S1481€"'Remove this unused "rs" local variable.(·¦Ã…8Óƒÿ,
+tsquid:S14507"QRemove the "db" field and declare it as a local variable in the relevant methods.(Éú®µÿÿÿÿÿ8Óƒÿ,
+Usquid:S1854€"6Remove this useless assignment to local variable "rs".(·¦Ã…8Óƒÿ,
+csquid:HiddenFieldCheck`":Rename "papier" which hides the field declared at line 44.(á„¹Š8‰ç´ÿ,
 nsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Óƒÿ,
+fsquid:S2095€"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…8ëŞŞ„ÿ,
+nsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(‚Ñ†£úÿÿÿÿ8Óƒÿ,
+jsquid:HiddenFieldCheckd"ARename "rodzajPapieru" which hides the field declared at line 41.(ğÅ¾Ò8ªàÁòÿ,

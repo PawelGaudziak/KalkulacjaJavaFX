@@ -1,12 +1,12 @@
 
-[squid:S1854 "<Remove this useless assignment to local variable "cenaZaKg".(×àÇÓ8¿‡õ›ƒ-
+esquid:UselessImportCheck"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8òàïõ‚-
 asquid:HiddenFieldChecká"7Rename "db" which hides the field declared at line 115.(‚Ç8µŸ¬-
+osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(å€‘×şÿÿÿÿ8µŸ¬-
 csquid:UnusedPrivateMethodË"1Remove this unused private "formatDouble" method.(²ù„Šùÿÿÿÿ8ŠåÔ‡„-
-Isquid:S1068s"&Remove this unused "db" private field.(Éú®µÿÿÿÿÿ8òàïõ‚-
 Lsquid:S1481 "-Remove this unused "cenaZaKg" local variable.(×àÇÓ8¿‡õ›ƒ-
+[squid:S1854 "<Remove this useless assignment to local variable "cenaZaKg".(×àÇÓ8¿‡õ›ƒ-
+Isquid:S1068s"&Remove this unused "db" private field.(Éú®µÿÿÿÿÿ8òàïõ‚-
+Fsquid:S1481á"'Remove this unused "db" local variable.(‚Ç8µŸ¬-
+Usquid:S1854á"6Remove this useless assignment to local variable "db".(‚Ç8µŸ¬-
 osquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(ñ»„Ğşÿÿÿÿ8‚òÀú‚-
 jsquid:CommentedOutCodeLineı"<This block of commented-out lines of code should be removed.(¯”¯ö8µŸ¬-
-Usquid:S1854á"6Remove this useless assignment to local variable "db".(‚Ç8µŸ¬-
-esquid:UselessImportCheck"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8òàïõ‚-
-osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(å€‘×şÿÿÿÿ8µŸ¬-
-Fsquid:S1481á"'Remove this unused "db" local variable.(‚Ç8µŸ¬-

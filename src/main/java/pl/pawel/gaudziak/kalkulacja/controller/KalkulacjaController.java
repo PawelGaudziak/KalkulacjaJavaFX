@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 import pl.pawel.gaudziak.kalkulacja.database.DBConnector;
 import pl.pawel.gaudziak.kalkulacja.model.FormatPapUlotka;
 import pl.pawel.gaudziak.kalkulacja.model.FormatPapieru;
+import pl.pawel.gaudziak.kalkulacja.model.FormatUlotki;
 import pl.pawel.gaudziak.kalkulacja.model.Zlecenia;
 import pl.pawel.gaudziak.kalkulacja.service.*;
 
@@ -142,6 +143,10 @@ public class KalkulacjaController {
         FormatPapieruService formatPapieruService = new FormatPapieruService();
         FormatPapieru formatPapieru = formatPapieruService.znajdzPoNazwie(kCombo.getValue());
 
+       // int iloscArkDoDruku = service.policzIloscArkDoDruku(zlecenieId, formatPapieru.getId());
+        //float waga = service.policzWagaPapieru(zlecenieId, formatPapieru.getId());
+        //float cenaPapieru = waga * Float.valueOf(kCenaZaKgOkno.getText());
+
         int iloscArkDoDruku = service.policzIloscArkDoDruku(zlecenieId, formatPapieru.getId());
         float waga = service.policzWagaPapieru(zlecenieId, formatPapieru.getId());
         float cenaPapieru = waga * Float.valueOf(kCenaZaKgOkno.getText());
@@ -178,20 +183,34 @@ public class KalkulacjaController {
 
     @FXML
     void kZapiszClick(MouseEvent event) {
+
+        String format = kFormatUlotkiOkno.getText();
+
         ZleceniaService zleceniaService = new ZleceniaService();
         Zlecenia zlecenie = zleceniaService.znajdzPoId(Integer.valueOf(kIDzleceniaOkno.getText()));
 
         FormatPapieruService formatPapieruService = new FormatPapieruService();
         FormatPapieru formatPapieru = formatPapieruService.znajdzPoNazwie(kCombo.getValue());
 
+        FormatUlotki formatUlotki = zleceniaService.getFormatUlotki(format);
+
+       // FormatUlotkiService formatUlotkiService = new FormatUlotkiService();
+       // FormatUlotki formatUlotki = formatUlotkiService.znajdzPoNazwie(kFormatUlotkiOkno.getId());
+
+
         FormatPapUlotkaService formatPapUlotkaService = new FormatPapUlotkaService();
         FormatPapUlotka formatPapUlotka = formatPapUlotkaService.znajdzFormatPapUlotkoa(formatPapieru.getId(), zlecenie.getId_u().getId());
+
+
 
         zlecenie.setCena_za_kg(getAsDouble(kCenaZaKgOkno));
         zlecenie.setId(formatPapUlotka);
         zlecenie.setWaga_papieru(getAsDouble(kWagaPapieruOkno));
         zlecenie.setCena_papieru(getAsDouble(kCenaPapieruOkno));
         zlecenie.setIlosc_arkuszy_do_druku(Integer.valueOf(kIloscArkuszyDoDrukuOkno.getText()));
+        zlecenie.setGramatura(Integer.valueOf(kGramaturaOkno.getText()));
+        zlecenie.setNaklad(Integer.valueOf(kNakladOkno.getText()));
+        //zlecenie.setId_u(kFormatUlotkiOkno.getText());
 
         zleceniaService.update(zlecenie);
     }
@@ -236,7 +255,7 @@ public class KalkulacjaController {
             kGramaturaOkno.setText(String.valueOf(zlecenia.getGramatura()));
             kFormatUlotkiOkno.setText(String.valueOf(zlecenia.getId_u().getFormat()));
             kRodzajPapieruOkno.setText(String.valueOf(zlecenia.getId_p().getRodzaj_papieru()));
-            kMailKlientaOkno.setText(String.valueOf(zlecenia.getId_klienta().getE_mail()));
+            kMailKlientaOkno.setText(String.valueOf(zlecenia.getEmail_klienta()));
             kCenaPapieruOkno.setText(String.valueOf(zlecenia.getCena_papieru()));
             kWagaPapieruOkno.setText(String.valueOf(zlecenia.getWaga_papieru()));
             kIloscArkuszyDoDrukuOkno.setText(String.valueOf(zlecenia.getIlosc_arkuszy_do_druku()));

@@ -100,9 +100,11 @@ public class Zlecenia {
         this.id_zlecenia = id_zlecenia;
     }
 
-    public User getId_klienta() {
-        return id_klienta;
+    public Integer getId_klienta() {
+        return id_klienta.getId_klienta();
     }
+    public String getEmail_klienta() { return id_klienta.getE_mail(); }
+
 
     public void setId_klienta(User id_klienta) {
         this.id_klienta = id_klienta;

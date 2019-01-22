@@ -26,4 +26,16 @@ public class FormatUlotkiService {
                 .list();
         return list.get(0);
     }
+/*
+    public FormatUlotki znajdzPoNazwie(String nazwa) {
+        Session session = HibernateUtils.getSessionFactory().openSession();
+        List<FormatUlotki> list2 = session
+                .createSQLQuery("SELECT * FROM format_ulotki WHERE format = :nazwa")
+                .addEntity(FormatUlotki.class)
+                .setParameter("format", nazwa)
+                .list();
+        session.close();
+        return list2.get(0);
+    }
+    */
 }

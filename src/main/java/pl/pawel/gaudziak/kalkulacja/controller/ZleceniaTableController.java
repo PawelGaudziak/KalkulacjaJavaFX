@@ -122,8 +122,9 @@ public class ZleceniaTableController {
             Zlecenia zlecenia = zleceniaService.znajdzPoId(selectedItemId);
 */
             // wskazanie kolumn do wyświetlenia z naszego modelu
+//        System.out.println(allZlecenia.get(1).getId_klienta());
             colIdZlecenia.setCellValueFactory(new PropertyValueFactory<Zlecenia, Integer>("id_zlecenia"));
-            colIKlienta.setCellValueFactory(new PropertyValueFactory<Zlecenia, Integer>("Klienci_id_klienta"));
+            colIKlienta.setCellValueFactory(new PropertyValueFactory<Zlecenia, Integer>("id_klienta"));
             colNaklad.setCellValueFactory(new PropertyValueFactory<Zlecenia, Integer>("naklad"));
             colGramatura.setCellValueFactory(new PropertyValueFactory<Zlecenia, Integer>("gramatura"));
             colCenaZaKg.setCellValueFactory(new PropertyValueFactory<Zlecenia, Double>("cena_za_kg"));
